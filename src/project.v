@@ -1,6 +1,6 @@
 `default_nettype none
 
-module tt_tdctest_container (
+module tt_um_tdctest_container (
     // Include power ports for the Gate Level test:
     `ifdef GL_TEST
         input wire VPWR,
